@@ -1,0 +1,84 @@
+perl-Gnome2-PanelApplet
+-------------------------------------------
+Perl bindings for the GNOME panel applet library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  glib2-2.12.13-1
+  gnome-panel-2.18.3-2
+  gtk2-x11-2.10.14-1
+  perl-5.8.8-4
+  perl-Glib-1.144-1
+  perl-Gtk2-1.146-1
+  perl-Gnome2-1.042-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.8-4
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-PanelApplet-0.01-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gnome2-PanelApplet-0.01-1.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-PanelApplet-0.01-1-src.tar.bz2
+  /usr/src/perl-Gnome2-PanelApplet-0.01-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-PanelApplet.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/Factory.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/Install/libpanelapplet-perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/Install/libpanelapplet-perl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/Install/libpanelapplet-perl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/Install/libpanelapplet-perl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PanelApplet/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/PanelApplet/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/PanelApplet/PanelApplet.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/PanelApplet/PanelApplet.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/PanelApplet/libPanelApplet.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-PanelApplet-0.01.README
+  /usr/share/doc/perl-Gnome2-PanelApplet-0.01/AUTHOR
+  /usr/share/doc/perl-Gnome2-PanelApplet-0.01/ChangeLog
+  /usr/share/doc/perl-Gnome2-PanelApplet-0.01/LICENSE
+  /usr/share/doc/perl-Gnome2-PanelApplet-0.01/NEWS
+  /usr/share/doc/perl-Gnome2-PanelApplet-0.01/README
+  /usr/share/man/man3/Gnome2.PanelApplet.3pm.gz
+  /usr/share/man/man3/Gnome2.PanelApplet.Factory.3pm.gz
+  /usr/share/man/man3/Gnome2.PanelApplet.index.3pm.gz
+  /usr/share/man/man3/Gnome2.PanelApplet.main.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Gnome2-PanelApplet.pod
+
+--------------------
+
+Port Notes:
+
+----- version 0.01-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
