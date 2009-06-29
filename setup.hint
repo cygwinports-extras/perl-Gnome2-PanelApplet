@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: cygwin glib2 gnome-panel gtk2-x11 perl perl-Glib perl-Gtk2 perl-Gnome2-GConf perl-Gnome2
+requires: glib2 gnome-panel gtk2-x11 perl perl-Glib perl-Gtk2 perl-Gnome2-GConf perl-Gnome2
 sdesc: "Perl bindings for libpanelapplet-2"
 ldesc: "Perl bindings for the GNOME panel applet library"
